@@ -1,8 +1,2 @@
-- title: "IBM Hyper Protect Introduction Videos"
-  url:  https://www.youtube.com/watch?v=df2q-QdJPgQ
-
-- title: "VMware Disk Encryptions with IBM Hyper Protect"
-  url:  https://chrispoole.com/article/use-ibm-cloud-hyper-protect-crypto-services-to-encrypt-vmware-disks
-
-- title: "How to integrate with IBM Cloud Object Storage (COS)"
-  url:  https://www.youtube.com/watch?v=e_4RO7r_t8M
+- title: "IBM Hyper Protect: Coding Examples for GREP11"
+  url: https://github.com/ibm-developer/ibm-cloud-hyperprotectcrypto
