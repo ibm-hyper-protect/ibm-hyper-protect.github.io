@@ -1,17 +1,23 @@
 - title: "Use IBM Cloud Hyper Protect Crypto Services to Encrypt VMware Disks"
   url: https://developer.ibm.com/tutorials/use-hyper-protect-crypto-services-to-encrypt-vmware-disks/
+  offering: ['hyper-protect', 'hpcs', 'vmware']
 
 - title: "Getting Stared with Hyper Protect DBaaS for MongoDB"
   url: https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted
+  offering: ['hyper-protect', 'dbaas']
 
 - title: "Getting Started with Hyper Protect DBaaS for PostgreSQL"
   url: https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-postgresql?topic=hyper-protect-dbaas-for-postgresql-gettingstarted
+  offering: ['hyper-protect', 'dbaas']
 
 - title: "Protect cloud-based data with an encrypted database"
-- url: https://developer.ibm.com/tutorials/hyper-protect-your-data
+  url: https://developer.ibm.com/tutorials/hyper-protect-your-data
+  offering: ['hyper-protect', 'dbaas']
 
 - title: "Deploy software to a private IBM Cloud Hyper Protect Virtual Server using IBM toolchain"
   url: https://developer.ibm.com/tutorials/deploy-software-to-private-hyper-protect-virtual-servers-using-ibm-toolchain/
+  offering: ['hyper-protect', 'hpvs']
 
 - title: "Create an Nginx reverse proxy across multiple backend servers"
   url: https://developer.ibm.com/components/ibmz/tutorials/develop-a-website-with-different-frontend-and-api-backend-endpoints
+  offering: ['hyper-protect', 'hpcs', 'hpvs', 'dbaas']
