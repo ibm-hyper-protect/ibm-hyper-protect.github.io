@@ -1,48 +1,51 @@
 - title: "Getting Started with IBM Cloud Hyper Protect Crypto Services"
   url: https://youtu.be/df2q-QdJPgQ
-  offering: hpcs
+  offering: ['hyper-protect', 'hpcs', 'fss']
 
 - title: "IBM Cloud Hyper Protect Crypto Services and IBM Cloud for VMware Solutions Introduction"
   url: https://youtu.be/9n8-hQBMYWQ
-  offering: hpcs
+  offering: ['hyper-protect', 'hpcs', 'fss']
 
 - title: "Hyper Protect Crypto Services and IBM Cloud for VMware Solutions"
   url: https://youtu.be/huQ5wUfrW4c
-  offering: hpcs
+  offering: ['hyper-protect', 'hpcs', 'fss']
 
 - title: "Integrating IBM Cloud Object Storage with IBM Cloud Hyper Protect Crypto Services"
   url: https://youtu.be/e_4RO7r_t8M
-  offering: hpcs
+  offering: ['hyper-protect', 'hpcs', 'fss']
 
 - title: "IBM Cloud Hyper Protect Crypto Service Explainer"
   url: https://youtu.be/0LiltyNMwgo
-  offering: hpcs
+  offering: ['hyper-protect', 'hpcs', 'fss']
 
 - title: "Getting Started with IBM Cloud Hyper Protect Virtual Server"
   url: https://youtu.be/GlP-w-vsPmc
-  offering: hpvs
+  offering: ['hyper-protect', 'hpvs', 'fss']
 
 - title: "Get Started with IBM Cloud Hyper Protect DBaaS"
   url: https://youtu.be/YzQdszTI4Zg
-  offering: dbaas
+  offering: ['hyper-protect', 'dbaas', 'fss']
 
 - title: "IBM Cloud Hyper Protect DBaaS and Bring Your Own Key"
   url: https://youtu.be/DwD_PFXjROM
-  offering: dbaas
+  offering: ['hyper-protect', 'dbaas', 'fss']
 
 - title: "Data security and privacy using IBM Cloud Hyper Protect DBaaS"
   url: https://www.youtube.com/watch?v=__IBP727IL8
-  offering: dbaas
+  offering: ['hyper-protect', 'dbaas', 'fss']
 
 - title: "Secure cloud-based data with IBM Cloud Hyper Protect DBaaS"
   url: https://www.youtube.com/watch?v=RLwlflTDDys
-  offering: dbaas
+  offering: ['hyper-protect', 'dbaas', 'fss']
 
 - title: "IBM THINK 2019: Introduction to Z as a Service"
   url: https://www.ibm.com/events/think/watch/replay/120157283
+  offering: ['zaas', 'fss']
   
 - title: "IBM THINK 2019: IBM Cloud Hyper Protect family and Secure Service Container"
   url: https://www.ibm.com/events/think/watch/replay/120171746
+  offering: ['hyper-protect', 'zaas', 'ssc']
   
 - title: "IBM THINK 2019: IBM Cloud security"
   url: https://www.ibm.com/events/think/watch/replay/120118486
+  offering: think
