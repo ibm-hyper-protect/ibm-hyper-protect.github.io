@@ -1,0 +1,100 @@
+---
+---
+<!DOCTYPE html>
+
+<head>
+
+    <title>IBM Cloud Hyper Protect Services for FSS</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./plex/css/ibm-plex.min.css" rel="stylesheet" type="text/css">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div id="title">
+	<h1><span>IBM Cloud</span> Hyper Protect Services</h1>
+	<span>Financial System Services</span>
+    </div>
+
+    <div id="content">
+        <p id="serif">Build applications for FSS Cloud using a portfolio of Hyper Protect services available on IBM Cloud</p>
+
+	<div id="videos">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/df2q-QdJPgQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+	</div>
+
+        <div id="collateral">
+
+            <h2>Blogs</h2>
+
+            <ul>
+                {% for link in site.data.blogs %}
+                {% if link.offering contains "fss" %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
+
+            <h2>Podcasts</h2>
+
+            <ul>
+                {% for link in site.data.podcasts %}
+                {% if link.offering contains "fss" %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
+
+        </div>
+
+
+    </div>
+
+    <div id="sidebar">
+
+	<h2>Tutorials</h2>
+        <ul>
+            {% for link in site.data.tutorials %}
+            {% if link.offering contains "fss" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+        </ul>
+
+	<h2>Code Patterns</h2>
+        <ul>
+            {% for link in site.data.code-patterns %}
+            {% if link.offering contains "fss" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+        </ul>
+
+	<h2>Videos</h2>
+
+        <ul>
+            {% for link in site.data.videos %}
+            {% if link.offering contains "fss" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+
+  <h2>Tech Talks</h2>
+
+        <ul>
+            {% for link in site.data.tech-talks %}
+            {% if link.offering contains "fss" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+        </ul>
+
+    </div>
+
+    <div id="footer">
+	<p>IBM Cloud Hyper Protect Services for FSS</p>
+    </div>
+
+</body>
+
