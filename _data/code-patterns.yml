@@ -1,8 +1,11 @@
 - title: "Create secure microservices writing to a consolidated database"
   url: https://developer.ibm.com/patterns/create-a-secured-microservices-and-deploy-it-to-a-consolidated-database/
+  offering: ['hyper-protect', 'hpcs', 'hpvs', 'dbaas']
 
 - title: "Build and deploy a disaster donations website with end-to-end encryption"
   url: https://developer.ibm.com/technologies/systems/patterns/systems-create-a-secure-disaster-donations-website
+  offering: ['hyper-protect', 'hpcs', 'hpvs', 'dbaas']
 
 - title: "Secure a digital wallet in the public cloud"
   url: https://developer.ibm.com/components/ibmz/patterns/secure-bitcoin-wallet-with-ibm-cloud-hyper-protect-virtual-servers
+  offering: ['hyper-protect', 'hpcs', 'hpvs']
