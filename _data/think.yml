@@ -1,4 +1,12 @@
 - title: "Hyper protect your sensitive data and workloads in the cloud"
   url: https://www.ibm.com/blogs/systems/hyper-protect-your-sensitive-data-and-workloads-in-the-cloud/
   offering: ['hyper-protect', 'think']
+
+- title: "Enhance business agility with new cloud-enabling solutions on IBM Z"
+  url: https://www.ibm.com/blogs/systems/enhance-business-agility-with-new-cloud-enabling-solutions-on-ibm-z/
+  offering: ['hyper-protect', 'think']
+  
+- title: "Keep customer data secured, private and encrypted with the latest IBM Z enhancements"
+  url: https://www.ibm.com/blogs/systems/customer-data-secure-private-encrypted-ibm-z/
+  offering: ['hyper-protect', 'think']
   
