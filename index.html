@@ -53,6 +53,14 @@
 
     <div id="sidebar">
 
+	<h2>Think 2020</h2>
+        <ul>
+            {% for link in site.data.think %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+        </ul>
+
+
 	<h2>Tutorials</h2>
         <ul>
             {% for link in site.data.tutorials %}
