@@ -129,3 +129,7 @@
 - title: "IBM Builds Out Its Financial Services-Ready Public Cloud Ecosystem With More ISVs"
   url: https://www.forbes.com/sites/moorinsights/2020/05/05/ibm-builds-out-its-financial-services-ready-public-cloud-ecosystem-with-more-isvs/#348df086730c
   offering: ['hyper-protect', 'think2020', 'fss']
+  
+- title: "Using IBM Cloud Hyper Protect Services with Apple CareKit"
+  url: https://developer.ibm.com/blogs/using-ibm-cloud-hyper-protect-services-with-apple-carekit/
+  offering: ['hyper-protect', 'think2020']
