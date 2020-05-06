@@ -40,12 +40,40 @@
 
 - title: "IBM THINK 2019: Introduction to Z as a Service"
   url: https://www.ibm.com/events/think/watch/replay/120157283
-  offering: ['zaas', 'fss']
+  offering: ['zaas', 'fss', 'think2019']
   
 - title: "IBM THINK 2019: IBM Cloud Hyper Protect family and Secure Service Container"
   url: https://www.ibm.com/events/think/watch/replay/120171746
-  offering: ['hyper-protect', 'zaas', 'ssc']
+  offering: ['hyper-protect', 'zaas', 'ssc', 'think2019']
   
 - title: "IBM THINK 2019: IBM Cloud security"
   url: https://www.ibm.com/events/think/watch/replay/120118486
-  offering: think
+  offering: ['hyper-protect', 'think2019']
+  
+- title: "IBM THINK 2020: World’s First FSS Ready Public Cloud"
+  url: https://www.ibm.com/events/think/watch/replay/126552086/
+  offering: ['hyper-protect', 'think2020', 'fss']
+
+- title: "IBM THINK 2020: Cloud Security - State of the Union"
+  url: https://www.ibm.com/events/think/watch/replay/126541242/
+  offering: ['hyper-protect', 'think2020']
+  
+- title: "IBM THINK 2020: Why Complex Workloads Thrive on Public Cloud"
+  url: https://www.ibm.com/events/think/watch/replay/126542985/
+  offering: ['hyper-protect', 'think2020']
+  
+- title: "IBM THINK 2020: The Cloud You Want, With the Privacy and Security You Need"
+  url: https://www.ibm.com/events/think/watch/replay/126541696/
+  offering: ['hyper-protect', 'think2020']
+  
+- title: "IBM THINK 2020: Modernize and Secure Your Enterprise Applications"
+  url: https://www.ibm.com/events/think/watch/replay/126541249
+  offering: ['hyper-protect', 'think2020']
+  
+- title: "IBM THINK 2020: IBM Z and Red Hat for Your Journey to Cloud"
+  url: https://www.ibm.com/events/think/watch/replay/126541710
+  offering: ['hyper-protect', 'think2020']
+  
+- title: "IBM THINK 2020: Delivering Data Privacy and Protection with Encryption Everywhere"
+  url: https://www.ibm.com/events/think/watch/replay/126541719/
+  offering: ['hyper-protect', 'think2020']
