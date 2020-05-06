@@ -1,3 +1,11 @@
+- title: "Hyper protect your sensitive data and workloads in the cloud"
+  url: https://www.ibm.com/blogs/systems/hyper-protect-your-sensitive-data-and-workloads-in-the-cloud/
+  offering: [`think2020`]
+
+- title: "How Partners Can Help Us Create a Secure Ecosystem for the Financial Services Industry"
+  url: https://www.ibm.com/cloud/blog/isv-and-saas-partners-for-ibm-financial-services-ready-public-cloud
+  offering: [`think2020`]
+
 - title: "Announcing BYOK/KYOK for IBM Cloud Hyper Protect DBaaS"
   url: https://www.ibm.com/cloud/blog/announcements/ibm-cloud-hyper-protect-dbaas
   offering: ['hyper-protect', 'dbaas']
