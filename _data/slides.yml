@@ -1,15 +1,15 @@
 - title: "Key considerations for Financial Services institutions on their journey to public cloud"
-  picfile: /_pictures/fss-key-considerations.png
+  picfile: fss-key-considerations.png
   offering: ['hyper-protect', 'fss']
   
 - title: "World's First Financial-Services Ready Public Cloud"
-  picfile: /_pictures/fss-worls-first-fss-cloud.png
+  picfile: fss-worlds-first-fss-cloud.png
   offering: ['hyper-protect', 'fss']
   
 - title: "Financial Services-ready Public Cloud Ecosystem"
-  picfile: /_pictures/fss-publiccloud-ecosystem.png
+  picfile: fss-publiccloud-ecosystem.png
   offering: ['hyper-protect', 'fss']
   
 - title: "IBM's Public Cloud: The most open and secure public cloud for Business"
-  picfile: /_pictures/fss-publiccloud-open-secure.png
+  picfile: fss-publiccloud-open-secure.png
   offering: ['hyper-protect', 'fss']
