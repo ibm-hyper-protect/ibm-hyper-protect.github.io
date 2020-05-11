@@ -25,7 +25,7 @@
         <div id="slides" class="slides-content slides-section" style="max-width:500px">
         	{% for link in site.data.slides %}
                 {% if link.offering contains "fss" %}
-                <img class="hyperprotect-slides" src={{link.picfile}} style="width:100%">
+                <img class="hyperprotect-slides" src="_pictures/{{link.picfile}}" style="width:100%">
                 {% endif %}
                 {% endfor %}
         </div>
