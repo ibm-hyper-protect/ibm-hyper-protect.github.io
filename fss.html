@@ -21,59 +21,40 @@
 
     <div id="content">
 	    
-	<h2>Hyper Protect FSS Features</h2>    
-        <div id="slides" class="slides-content slides-section" style="max-width:500px">
+        <div id="slides" class="slides-content" style="max-width:95%">
         	{% for link in site.data.slides %}
                 {% if link.offering contains "fss" %}
-                <img class="hyperprotect-slides" src="_pictures/{{link.picfile}}" style="width:100%">
+		<a href="pictures/{{link.picfile}}">
+		<img class="hyperprotect-slides" src="pictures/{{link.picfile}}" style="width:100%">
+		</a>
                 {% endif %}
                 {% endfor %}
         </div>
 
         <div id="collateral">
 
-            <h2>Blogs</h2>
+	    <hr>
+	    <h3>Books and PDFs for FSS</h3>
             <ul>
-                {% for link in site.data.blogs %}
+                {% for link in site.data.pdfs %}
                 {% if link.offering contains "fss" %}
-                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                <li><a href="pdfs-books/{{link.pdffile }}">{{ link.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+
+                {% for link in site.data.books %}
+                {% if link.offering contains "fss" %}
+                <li><a href="pdfs-books/{{link.url }}">{{ link.title }}</a></li>
                 {% endif %}
                 {% endfor %}
             </ul>
 
-            <h2>Podcasts</h2>
-            <ul>
-                {% for link in site.data.podcasts %}
-                {% if link.offering contains "fss" %}
-                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-                {% endif %}
-                {% endfor %}
-            </ul>
         </div>
     </div>
 
     <div id="sidebar">
 
-	<h2>Tutorials</h2>
-        <ul>
-            {% for link in site.data.tutorials %}
-            {% if link.offering contains "fss" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-
-	<h2>Code Patterns</h2>
-        <ul>
-            {% for link in site.data.code-patterns %}
-            {% if link.offering contains "fss" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-
-	<h2>Videos</h2>
-
+	<hr>
         <ul>
             {% for link in site.data.videos %}
             {% if link.offering contains "fss" %}
@@ -82,8 +63,34 @@
             {% endfor %}
         </ul>
 
-  <h2>Tech Talks</h2>
+	<hr>
+        <ul>
+            {% for link in site.data.blogs %}
+            {% if link.offering contains "fss" %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
 
+	<hr>
+        <ul>
+            {% for link in site.data.tutorials %}
+            {% if link.offering contains "fss" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+
+	<hr>
+        <ul>
+            {% for link in site.data.code-patterns %}
+            {% if link.offering contains "fss" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+
+	<hr>
         <ul>
             {% for link in site.data.tech-talks %}
             {% if link.offering contains "fss" %}
@@ -111,7 +118,7 @@ function slideShow() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1}    
   x[slideIndex-1].style.display = "block";  
-  setTimeout(slideShow, 2000); // Change image every 2 seconds
+  setTimeout(slideShow, 7000); // Change image every 7 seconds
 }
 </script>
 

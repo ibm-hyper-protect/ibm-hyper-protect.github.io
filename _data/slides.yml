@@ -13,3 +13,7 @@
 - title: "IBM's Public Cloud: The most open and secure public cloud for Business"
   picfile: fss-publiccloud-open-secure.png
   offering: ['hyper-protect', 'fss']
+
+- title: "FSS Cloud: Temenos Reference Architecture"
+  picfile: fss-temenos-reference-architecture.png
+  offering: ['hyper-protect', 'fss']

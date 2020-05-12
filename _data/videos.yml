@@ -1,42 +1,42 @@
 - title: "Getting Started with IBM Cloud Hyper Protect Crypto Services"
   url: https://youtu.be/df2q-QdJPgQ
-  offering: ['hyper-protect', 'hpcs', 'fss']
+  offering: ['hyper-protect', 'hpcs']
 
 - title: "IBM Cloud Hyper Protect Crypto Services and IBM Cloud for VMware Solutions Introduction"
   url: https://youtu.be/9n8-hQBMYWQ
-  offering: ['hyper-protect', 'hpcs', 'fss']
+  offering: ['hyper-protect', 'hpcs']
 
 - title: "Hyper Protect Crypto Services and IBM Cloud for VMware Solutions"
   url: https://youtu.be/huQ5wUfrW4c
-  offering: ['hyper-protect', 'hpcs', 'fss']
+  offering: ['hyper-protect', 'hpcs']
 
 - title: "Integrating IBM Cloud Object Storage with IBM Cloud Hyper Protect Crypto Services"
   url: https://youtu.be/e_4RO7r_t8M
-  offering: ['hyper-protect', 'hpcs', 'fss']
+  offering: ['hyper-protect', 'hpcs']
 
 - title: "IBM Cloud Hyper Protect Crypto Service Explainer"
   url: https://youtu.be/0LiltyNMwgo
-  offering: ['hyper-protect', 'hpcs', 'fss']
+  offering: ['hyper-protect', 'hpcs']
 
 - title: "Getting Started with IBM Cloud Hyper Protect Virtual Server"
   url: https://youtu.be/GlP-w-vsPmc
-  offering: ['hyper-protect', 'hpvs', 'fss']
+  offering: ['hyper-protect', 'hpvs']
 
 - title: "Get Started with IBM Cloud Hyper Protect DBaaS"
   url: https://youtu.be/YzQdszTI4Zg
-  offering: ['hyper-protect', 'dbaas', 'fss']
+  offering: ['hyper-protect', 'dbaas']
 
 - title: "IBM Cloud Hyper Protect DBaaS and Bring Your Own Key"
   url: https://youtu.be/DwD_PFXjROM
-  offering: ['hyper-protect', 'dbaas', 'fss']
+  offering: ['hyper-protect', 'dbaas']
 
 - title: "Data security and privacy using IBM Cloud Hyper Protect DBaaS"
   url: https://www.youtube.com/watch?v=__IBP727IL8
-  offering: ['hyper-protect', 'dbaas', 'fss']
+  offering: ['hyper-protect', 'dbaas']
 
 - title: "Secure cloud-based data with IBM Cloud Hyper Protect DBaaS"
   url: https://www.youtube.com/watch?v=RLwlflTDDys
-  offering: ['hyper-protect', 'dbaas', 'fss']
+  offering: ['hyper-protect', 'dbaas']
 
 - title: "IBM THINK 2019: Introduction to Z as a Service"
   url: https://www.ibm.com/events/think/watch/replay/120157283

@@ -34,6 +34,13 @@
                 {% if link.offering contains "think" %}
                 <li><a href="{{ link.url }}">{{ link.title }}</a></li>
                 {% endif %}
+                {% if link.offering contains "think2019" %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                {% endif %}
+                {% if link.offering contains "think2020" %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                {% endif %}
+
                 {% endfor %}
             </ul>
         </div>
@@ -44,6 +51,12 @@
         <ul>
             {% for link in site.data.videos %}
             {% if link.offering contains "think" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% if link.offering contains "think2019" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% if link.offering contains "think2020" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
             {% endfor %}

@@ -20,7 +20,7 @@
     </div>
 
     <div id="content">
-        <p id="serif">Build secure cloud applications using a portfolio of cloud services powered by IBM LinuxONE.</p>
+        <h2>Build secure cloud applications using a portfolio of cloud services powered by IBM LinuxONE.</h2>
 
 	<div id="videos">
             <div class="video-container">
@@ -59,56 +59,84 @@
             <li><a href="think.html">IBM Think</a></li>
         </ul>
 
-	<h2>Tutorials</h2>
-        <ul>
-            {% for link in site.data.tutorials %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endfor %}
-        </ul>
-
-	<h2>Code Patterns</h2>
-        <ul>
-            {% for link in site.data.code-patterns %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endfor %}
-        </ul>
-
-	<h2>Videos</h2>
-
-        <h3>Crypto Service</h3>
+        <h2>HPCS: Crypto Service</h2>
         <ul>
             {% for link in site.data.videos %}
             {% if link.offering contains "hpcs" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
             {% endfor %}
+
+            {% for link in site.data.tutorials %}
+            {% if link.offering contains "hpcs" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+
+            {% for link in site.data.code-patterns %}
+            {% if link.offering contains "hpcs" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+
+            {% for link in site.data.tech-talks %}
+            {% if link.offering contains "hpcs" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
         </ul>
 
-        <h3>Virtual Servers</h3>
-
+        <h2>HPVS: Virtual Servers</h2>
         <ul>
             {% for link in site.data.videos %}
             {% if link.offering contains "hpvs" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
             {% endfor %}
+
+            {% for link in site.data.tutorials %}
+            {% if link.offering contains "hpvs" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+
+            {% for link in site.data.code-patterns %}
+            {% if link.offering contains "hpvs" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+
+            {% for link in site.data.tech-talks %}
+            {% if link.offering contains "hpvs" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
         </ul>
 
-        <h3>DBaaS</h3>
-
+        <h2>DBaaS for MongoDB/PostgreSQL</h2>
         <ul>
             {% for link in site.data.videos %}
             {% if link.offering contains "dbaas" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
             {% endfor %}
-        </ul>
 
-        <h2>Tech Talks</h2>
-
-        <ul>
-            {% for link in site.data.tech-talks %}
+            {% for link in site.data.tutorials %}
+            {% if link.offering contains "dbaas" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+
+            {% for link in site.data.code-patterns %}
+            {% if link.offering contains "dbaas" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+
+            {% for link in site.data.tech-talks %}
+            {% if link.offering contains "dbaas" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
             {% endfor %}
         </ul>
 

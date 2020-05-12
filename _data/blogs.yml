@@ -133,3 +133,7 @@
 - title: "Using IBM Cloud Hyper Protect Services with Apple CareKit"
   url: https://developer.ibm.com/blogs/using-ibm-cloud-hyper-protect-services-with-apple-carekit/
   offering: ['hyper-protect', 'think2020']
+
+- title: "Leveraging IBM LinuxONE and Temenos T24 for Core Banking Solutions"
+  url: https://www.ibm.com/downloads/cas/NEO7QNLJ 
+  offering: ['hyper-protect', 'fss']
