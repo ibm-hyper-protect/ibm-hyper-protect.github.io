@@ -1,19 +1,23 @@
 - title: "Key considerations for Financial Services institutions on their journey to public cloud"
   picfile: fss-key-considerations.png
   offering: ['hyper-protect', 'fss']
-  
+
 - title: "World's First Financial-Services Ready Public Cloud"
   picfile: fss-worlds-first-fss-cloud.png
-  offering: ['hyper-protect', 'fss']
-  
+  offering: ['hyper-protect', 'fss', 'featured']
+
 - title: "Financial Services-ready Public Cloud Ecosystem"
   picfile: fss-publiccloud-ecosystem.png
   offering: ['hyper-protect', 'fss']
-  
+
 - title: "IBM's Public Cloud: The most open and secure public cloud for Business"
   picfile: fss-publiccloud-open-secure.png
-  offering: ['hyper-protect', 'fss']
+  offering: ['hyper-protect', 'fss', 'featured']
 
 - title: "FSS Cloud: Temenos Reference Architecture"
   picfile: fss-temenos-reference-architecture.png
   offering: ['hyper-protect', 'fss']
+
+- title: "Trusted CI/CD"
+  picfile: trusted-cicd.png
+  offering: ['hyper-protect', 'code-patterns']

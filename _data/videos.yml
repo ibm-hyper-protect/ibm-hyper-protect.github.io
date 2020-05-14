@@ -1,6 +1,6 @@
 - title: "Getting Started with IBM Cloud Hyper Protect Crypto Services"
   url: https://youtu.be/df2q-QdJPgQ
-  offering: ['hyper-protect', 'hpcs']
+  offering: ['hyper-protect', 'hpcs', 'featured']
 
 - title: "IBM Cloud Hyper Protect Crypto Services and IBM Cloud for VMware Solutions Introduction"
   url: https://youtu.be/9n8-hQBMYWQ
@@ -20,15 +20,15 @@
 
 - title: "Getting Started with IBM Cloud Hyper Protect Virtual Server"
   url: https://youtu.be/GlP-w-vsPmc
-  offering: ['hyper-protect', 'hpvs']
+  offering: ['hyper-protect', 'hpvs', 'featured']
 
 - title: "Get Started with IBM Cloud Hyper Protect DBaaS"
   url: https://youtu.be/YzQdszTI4Zg
-  offering: ['hyper-protect', 'dbaas']
+  offering: ['hyper-protect', 'dbaas', 'featured']
 
 - title: "IBM Cloud Hyper Protect DBaaS and Bring Your Own Key"
   url: https://youtu.be/DwD_PFXjROM
-  offering: ['hyper-protect', 'dbaas']
+  offering: ['hyper-protect', 'dbaas', 'featured']
 
 - title: "Data security and privacy using IBM Cloud Hyper Protect DBaaS"
   url: https://www.youtube.com/watch?v=__IBP727IL8
@@ -77,3 +77,7 @@
 - title: "IBM THINK 2020: Delivering Data Privacy and Protection with Encryption Everywhere"
   url: https://www.ibm.com/events/think/watch/replay/126541719/
   offering: ['hyper-protect', 'think2020']
+
+- title: "IBM Z and LinuxONE: Installing OpenShift Container Platform (OCP) under z/VM"
+  url: https://mediacenter.ibm.com/media/t/1_x4dvo49l
+  offering: ['openshift', 'linuxone', 'ibmz']

@@ -14,97 +14,95 @@
 
 <body>
 
-    <div id="title">
-	<h1><span>IBM Cloud</span> Hyper Protect Services</h1>
-	<span>Financial System Services</span>
-    </div>
+  <div id="title">
+	    <h1><span>IBM Cloud</span> Hyper Protect Services</h1>
+	    <span>Financial System Services</span>
+  </div>
 
-    <div id="content">
-	    
-        <div id="slides" class="slides-content" style="max-width:95%">
+  <div id="content">
+      <div id="slides" class="slides-content" style="max-width:95%">
         	{% for link in site.data.slides %}
-                {% if link.offering contains "fss" %}
-		<a href="pictures/{{link.picfile}}">
-		<img class="hyperprotect-slides" src="pictures/{{link.picfile}}" style="width:100%">
-		</a>
-                {% endif %}
-                {% endfor %}
-        </div>
+          {% if link.offering contains "fss" %}
+		      <a href="pictures/{{link.picfile}}">
+		          <img class="hyperprotect-slides" src="pictures/{{link.picfile}}" style="width:100%">
+		      </a>
+          {% endif %}
+          {% endfor %}
+      </div>
+  </div>
 
-        <div id="collateral">
+  <div id="sidebar">
+	    <hr>
+      <ul>
+          {% for link in site.data.videos %}
+          {% if link.offering contains "fss" %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+      </ul>
 
 	    <hr>
-	    <h3>Books and PDFs for FSS</h3>
-            <ul>
-                {% for link in site.data.pdfs %}
-                {% if link.offering contains "fss" %}
-                <li><a href="pdfs-books/{{link.pdffile }}">{{ link.title }}</a></li>
-                {% endif %}
-                {% endfor %}
+      <ul>
+          {% for link in site.data.blogs %}
+          {% if link.offering contains "fss" %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+      </ul>
 
-                {% for link in site.data.books %}
-                {% if link.offering contains "fss" %}
-                <li><a href="pdfs-books/{{link.url }}">{{ link.title }}</a></li>
-                {% endif %}
-                {% endfor %}
-            </ul>
+	    <hr>
+      <ul>
+          {% for link in site.data.tutorials %}
+          {% if link.offering contains "fss" %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+      </ul>
 
-        </div>
+	    <hr>
+      <ul>
+          {% for link in site.data.code-patterns %}
+          {% if link.offering contains "fss" %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+      </ul>
+
+	    <hr>
+      <ul>
+          {% for link in site.data.tech-talks %}
+          {% if link.offering contains "fss" %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+      </ul>
+  </div>
+
+  <div id="footer"
+    <p>IBM Cloud Hyper Protect Services for FSS</p>
+  </div>
+
+  <div id="offerings">
+  </div>
+
+  <div id="collateral">
+	      <hr>
+	      <h3>Books and PDFs</h3>
+        <ul>
+          {% for link in site.data.pdfs %}
+          {% if link.offering contains "fss" %}
+          <li><a href="pdfs-books/{{link.pdffile }}">{{ link.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+
+          {% for link in site.data.books %}
+          {% if link.offering contains "fss" %}
+          <li><a href="pdfs-books/{{link.url }}">{{ link.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
     </div>
 
-    <div id="sidebar">
-
-	<hr>
-        <ul>
-            {% for link in site.data.videos %}
-            {% if link.offering contains "fss" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-
-	<hr>
-        <ul>
-            {% for link in site.data.blogs %}
-            {% if link.offering contains "fss" %}
-                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-
-	<hr>
-        <ul>
-            {% for link in site.data.tutorials %}
-            {% if link.offering contains "fss" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-
-	<hr>
-        <ul>
-            {% for link in site.data.code-patterns %}
-            {% if link.offering contains "fss" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-
-	<hr>
-        <ul>
-            {% for link in site.data.tech-talks %}
-            {% if link.offering contains "fss" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-
-    </div>
-
-    <div id="footer">
-	<p>IBM Cloud Hyper Protect Services for FSS</p>
-    </div>
-	
 <script>
 var slideIndex = 0;
 slideShow();
@@ -113,14 +111,13 @@ function slideShow() {
   var i;
   var x = document.getElementsByClassName("hyperprotect-slides");
   for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+    x[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}    
-  x[slideIndex-1].style.display = "block";  
-  setTimeout(slideShow, 7000); // Change image every 7 seconds
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(slideShow, 10000); // Change image every 10 seconds
 }
 </script>
 
 </body>
-
