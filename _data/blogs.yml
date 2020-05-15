@@ -145,3 +145,7 @@
 - title: "Hyper protect your business for digital transformation"
   url: https://www.ibm.com/blogs/systems/hyper-protect-your-business-for-digital-transformation/
   offering: ['hyper-protect', 'hpvs']
+
+- title: "Protect Digital Assets with Hyper Protect Services on LinuxONE"
+  url: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/bob-blessing-hartley1/2020/05/12/protect-digital-assets-with-hyper-protect-services?CommunityKey=c1293167-6d93-448e-8854-3068846d3dfe&Tab=
+  offering: ['hyper-protect', 'hpvs']
