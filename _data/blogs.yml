@@ -1,14 +1,14 @@
 - title: "Hyper protect your sensitive data and workloads in the cloud"
   url: https://www.ibm.com/blogs/systems/hyper-protect-your-sensitive-data-and-workloads-in-the-cloud/
-  offering: think2020
+  offering: ['think2020']
 
 - title: "IBM Builds Out Its Financial Services-Ready Public Cloud Ecosystem With More ISVs "
   url: https://www.forbes.com/sites/moorinsights/2020/05/05/ibm-builds-out-its-financial-services-ready-public-cloud-ecosystem-with-more-isvs/#348df086730c
-  offering: think2020
+  offering: ['think2020']
   
 - title: "How Partners Can Help Us Create a Secure Ecosystem for the Financial Services Industry"
   url: https://www.ibm.com/cloud/blog/isv-and-saas-partners-for-ibm-financial-services-ready-public-cloud
-  offering: think2020
+  offering: ['think2020']
 
 - title: "Announcing BYOK/KYOK for IBM Cloud Hyper Protect DBaaS"
   url: https://www.ibm.com/cloud/blog/announcements/ibm-cloud-hyper-protect-dbaas
@@ -31,7 +31,7 @@
 
 - title: "The State of IBM Cloud Security: Think 2019"
   url: https://www.ibm.com/cloud/blog/cloud-security-right
-  offering: ['hyper-protect', 'hpcs', 'dbaas']
+  offering: ['hyper-protect', 'hpcs', 'dbaas', 'think2019']
 
 - title: "Integrating Hybrid Cloud and Enterprise IT Infrastructure "
   url: https://www.ibm.com/blogs/systems/integrating-hybrid-cloud-and-enterprise-it-infrastructure/
@@ -45,7 +45,7 @@
 
 - title: "IBM THINK 2019: Fueling Customer Success with VMware on the IBM Cloud"
   url: https://www.ibm.com/cloud/blog/security-innovation-and-choice-for-vmware-on-ibm-cloud
-  offering: ['think', 'vmware']
+  offering: ['think2019', 'vmware']
 
 - title: "A Tale of Two Security Models"
   url: https://www.ibm.com/blogs/systems/a-tale-of-two-security-models
