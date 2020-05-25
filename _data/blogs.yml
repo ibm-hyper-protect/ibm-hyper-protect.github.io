@@ -2,6 +2,10 @@
   url: https://www.ibm.com/blogs/systems/hyper-protect-your-sensitive-data-and-workloads-in-the-cloud/
   offering: ['think2020']
 
+- title: "Hyper protect your business for digital transformation"
+  url: https://www.ibm.com/blogs/systems/hyper-protect-your-business-for-digital-transformation/
+  offering: ['think2020']
+
 - title: "IBM Builds Out Its Financial Services-Ready Public Cloud Ecosystem With More ISVs "
   url: https://www.forbes.com/sites/moorinsights/2020/05/05/ibm-builds-out-its-financial-services-ready-public-cloud-ecosystem-with-more-isvs/#348df086730c
   offering: ['think2020']
@@ -10,6 +14,10 @@
   url: https://www.ibm.com/cloud/blog/isv-and-saas-partners-for-ibm-financial-services-ready-public-cloud
   offering: ['think2020']
 
+- title: "Think 2020: IBM Goes Vertical With The Financial Services Ready Cloud"
+  url: https://futurumresearch.com/research-notes/think-2020-ibm-goes-vertical-with-the-financial-services-ready-cloud/ 
+  offering: ['think2020']
+  
 - title: "Announcing BYOK/KYOK for IBM Cloud Hyper Protect DBaaS"
   url: https://www.ibm.com/cloud/blog/announcements/ibm-cloud-hyper-protect-dbaas
   offering: ['hyper-protect', 'dbaas']
