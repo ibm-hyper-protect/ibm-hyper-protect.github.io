@@ -1,3 +1,31 @@
+- title: "Hyper protect your sensitive data and workloads in the cloud"
+  url: https://www.ibm.com/blogs/systems/hyper-protect-your-sensitive-data-and-workloads-in-the-cloud/
+  offering: ['think2020']
+
+- title: "Hyper protect your business for digital transformation"
+  url: https://www.ibm.com/blogs/systems/hyper-protect-your-business-for-digital-transformation/
+  offering: ['think2020']
+
+- title: "IBM Builds Out Its Financial Services-Ready Public Cloud Ecosystem With More ISVs "
+  url: https://www.forbes.com/sites/moorinsights/2020/05/05/ibm-builds-out-its-financial-services-ready-public-cloud-ecosystem-with-more-isvs/#348df086730c
+  offering: ['think2020']
+  
+- title: "How Partners Can Help Us Create a Secure Ecosystem for the Financial Services Industry"
+  url: https://www.ibm.com/cloud/blog/isv-and-saas-partners-for-ibm-financial-services-ready-public-cloud
+  offering: ['think2020']
+
+- title: "Think 2020: IBM Goes Vertical With The Financial Services Ready Cloud"
+  url: https://futurumresearch.com/research-notes/think-2020-ibm-goes-vertical-with-the-financial-services-ready-cloud/ 
+  offering: ['think2020']
+  
+- title: "IBM HYPER PROTECT DIGITAL ASSETS PLATFORM:Protect Digital Assets with Hyper Protect Services on LinuxONE"
+  url: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/bob-blessing-hartley1/2020/05/12/protect-digital-assets-with-hyper-protect-services?CommunityKey=c1293167-6d93-448e-8854-3068846d3dfe&Tab=
+  offering: ['think2020']
+  
+- title: "Using IBM Cloud Hyper Protect Services with Apple CareKit"
+  url: https://developer.ibm.com/blogs/using-ibm-cloud-hyper-protect-services-with-apple-carekit/
+  offering: ['think2020']
+  
 - title: "Announcing BYOK/KYOK for IBM Cloud Hyper Protect DBaaS"
   url: https://www.ibm.com/cloud/blog/announcements/ibm-cloud-hyper-protect-dbaas
   offering: ['hyper-protect', 'dbaas']
@@ -19,7 +47,7 @@
 
 - title: "The State of IBM Cloud Security: Think 2019"
   url: https://www.ibm.com/cloud/blog/cloud-security-right
-  offering: ['hyper-protect', 'hpcs', 'dbaas']
+  offering: ['hyper-protect', 'hpcs', 'dbaas', 'think2019']
 
 - title: "Integrating Hybrid Cloud and Enterprise IT Infrastructure "
   url: https://www.ibm.com/blogs/systems/integrating-hybrid-cloud-and-enterprise-it-infrastructure/
@@ -33,7 +61,7 @@
 
 - title: "IBM THINK 2019: Fueling Customer Success with VMware on the IBM Cloud"
   url: https://www.ibm.com/cloud/blog/security-innovation-and-choice-for-vmware-on-ibm-cloud
-  offering: ['think', 'vmware']
+  offering: ['think2019', 'vmware']
 
 - title: "A Tale of Two Security Models"
   url: https://www.ibm.com/blogs/systems/a-tale-of-two-security-models
