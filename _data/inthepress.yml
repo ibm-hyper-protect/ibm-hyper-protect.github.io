@@ -1,0 +1,31 @@
+- title: "IBM Builds Out Its Financial Services-Ready Public Cloud Ecosystem With More ISVs "
+  url: https://www.forbes.com/sites/moorinsights/2020/05/05/ibm-builds-out-its-financial-services-ready-public-cloud-ecosystem-with-more-isvs/#348df086730c
+  offering: ['hyper-protect', 'fss']
+
+- title: "Think 2020: IBM Goes Vertical With The Financial Services Ready Cloud"
+  url: https://futurumresearch.com/research-notes/think-2020-ibm-goes-vertical-with-the-financial-services-ready-cloud/ 
+  offering: ['think2020', 'fss']
+
+- title: "Announcing BYOK/KYOK for IBM Cloud Hyper Protect DBaaS"
+  url: https://www.ibm.com/cloud/blog/announcements/ibm-cloud-hyper-protect-dbaas
+  offering: ['hyper-protect', 'dbaas', 'hpcs']
+
+- title: "Kenyan firm among 15 start-ups to benefit from first IBM project"
+  url: https://www.standardmedia.co.ke/business/article/2001352851/kenyan-firm-among-15-start-ups-to-benefit-from-first-ibm-project
+  offering: ['hyper-protect', 'accelerator']
+
+- title: "Gartner IT Symposium/Xpo 2019: Security and regulatory concerns with public cloud"
+  url: https://www-techrepublic-com.cdn.ampproject.org/c/s/www.techrepublic.com/google-amp/article/gartner-it-symposiumxpo-2019-security-and-regulatory-concerns-with-public-cloud/
+  offering: ['hyper-protect', 'hpcs', 'fss']
+
+- title: "IBM Unveils New Offerings for Faster and More Secured Path to Hybrid Cloud"
+  url: https://newsroom.ibm.com/2019-02-12-IBM-Unveils-New-Offerings-for-Faster-and-More-Secured-Path-to-Hybrid-Cloud
+  offering: ['hyper-protect', 'hpcs']
+
+- title: "IBM and Bank of America Team up on Public Cloud Aimed at Banks"
+  url: https://www.wsj.com/articles/ibm-bank-of-america-team-up-on-public-cloud-aimed-at-banks-11573016461?shareToken=st1e3675a67a1941c1939cef801b3a1f25
+  offering: ['hyper-protect', 'fss']
+
+- title: "IBM and Bank of America are Developing a Financial Services Ready Public Cloud"
+  url: https://www.forbes.com/sites/moorinsights/2019/11/18/ibm-and-bank-of-america-are-developing-a-financial-services-ready-public-cloud/#204aa6b57d23
+  offering: ['hyper-protect', 'fss']

@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+
+<head>
+
+    <title>IBM Cloud Hyper Protect Services: Tutorials</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./plex/css/ibm-plex.min.css" rel="stylesheet" type="text/css">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+  <div id="title">
+	    <h1><span>IBM Cloud</span> Hyper Protect Services</h1>
+	    <span>Tutorials</span>
+  </div>
+
+  <div id="content">
+		  <a href="pictures/creating-dbaas-service-instance.png">
+		      <img src="pictures/creating-dbaas-service-instance.png"  style="width:100%; height: 100%">
+		  </a>
+  </div>
+
+  <div id="sidebar">
+    <h2>Tutorials to get started with IBM Hyper Protect Services</h2>
+
+    <h3>Quick Links</h3>
+    <ul>
+        <li><a href="index.html">IBM Cloud Hyper Protect Home</a></li>
+        <li><a href="fss.html">IBM Cloud Financial System Services (FSS)</a></li>
+    </ul>
+
+    <h3>Resources</h3>
+    <ul>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="tutorials.html">Tutorials</a></li>
+      <li><a href="code-patterns.html">Code Patterns</a></li>
+      <li><a href="tech-talks.html">Tech Talks</a></li>
+      <li><a href="blogs.html">Blogs</a></li>
+      <li><a href="pdfs-ppts-books.html">Books, Powerpoints & PDF Presentations</a></li>
+      <li><a href="podcasts.html">Podcasts</a></li>
+      <li><a href="accelerator.html">Accelerator</a></li>
+    </ul>
+  </div>
+
+  <div id="footer"
+    <p>IBM Cloud Hyper Protect Services</p>
+  </div>
+
+  <div id="offerings">
+    <div style="float: left; width: 33%; background-color: #6495ed;">
+      <h2>HPCS</h2>
+      <ul>
+        {% for link in site.data.code-patterns %}
+        {% if link.offering contains "hpcs" %}
+        <li><a href="{{ link.url }}">{{ link.title }}"></a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div style="float: left; width: 33%; background-color: #00bfff">
+      <h2>HPVS</h2>
+      <ul>
+        {% for link in site.data.code-patterns %}
+        {% if link.offering contains "hpvs" %}
+        <li><a href="{{ link.url }}">{{ link.title }}"></a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div style="float: left; width: 34%; background-color: #1e90ff">
+      <h2>DBaaS</h2>
+      <ul>
+        {% for link in site.data.code-patterns %}
+        {% if link.offering contains "dbaas" %}
+        <li><a href="{{ link.url }}">{{ link.title }}"></a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div id="collateral">
+  </div>
+
+</body>
