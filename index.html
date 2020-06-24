@@ -1,122 +1,98 @@
----
----
+
 <!DOCTYPE html>
 
 <head>
-
     <title>IBM Cloud Hyper Protect Services</title>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="./plex/css/ibm-plex.min.css" rel="stylesheet" type="text/css">
     <link href="./style.css" rel="stylesheet" type="text/css">
-
 </head>
 
 <body>
-
     <div id="title">
-	<h1><span>IBM Cloud</span> Hyper Protect Services</h1>
-	<span><!-- Fast Start --></span>
+      <h1><span>IBM Cloud</span> Hyper Protect Services</h1>
+      <span><!-- Fast Start --></span>
     </div>
 
     <div id="content">
-        <p id="serif">Build secure cloud applications using a portfolio of cloud services powered by IBM LinuxONE.</p>
+      <div id="slides" class="slides-content" style="max-width:95%">
 
-	<div id="videos">
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/L0h3bewzR8s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-	</div>
+		      <a href="pictures/fss-worlds-first-fss-cloud.png">
+		          <img class="hyperprotect-slides" src="pictures/fss-worlds-first-fss-cloud.png" style="width:100%">
+		      </a>
 
-        <div id="collateral">
+		      <a href="pictures/fss-publiccloud-open-secure.png">
+		          <img class="hyperprotect-slides" src="pictures/fss-publiccloud-open-secure.png" style="width:100%">
+		      </a>
 
-            <h2>Blogs</h2>
-
-            <ul>
-                {% for link in site.data.blogs %}
-                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-                {% endfor %}
-            </ul>
-
-            <h2>Podcasts</h2>
-
-            <ul>
-                {% for link in site.data.podcasts %}
-                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-                {% endfor %}
-            </ul>
-
-        </div>
-
-
+      </div>
     </div>
 
     <div id="sidebar">
+      <h2>IBM Cloud Hyper Protect Services</h2>
 
-	<h2>THINK 2020 Replays</h2>
-        <ul>
-            {% for link in site.data.think2020-replay %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endfor %}
-        </ul>
-	    
-	<h2>Tutorials</h2>
-        <ul>
-            {% for link in site.data.tutorials %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endfor %}
-        </ul>
+      <h3>Quick Links</h3>
+      <ul>
+          <li><a href="fss.html">Financial System Services (FSS)</a></li>
+          <li><a href="https://www.ibm.com/events/think/">IBM Think</a></li>
+      </ul>
 
-	<h2>Code Patterns</h2>
-        <ul>
-            {% for link in site.data.code-patterns %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endfor %}
-        </ul>
+      <h3>Hot off the Press</h3>
+      <ul>
+          {% for link in site.data.inthepress %}
+          {% if link.offering contains "fss" %}
+          <li><a href="{{ link.url }}">{{ link.title }}"></a></li>
+          {% endif %}
+          {% endfor %}
+      </ul>
 
-	<h2>Videos</h2>
-
-        <h3>Crypto Service</h3>
-        <ul>
-            {% for link in site.data.videos %}
-            {% if link.offering contains "hpcs" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-
-        <h3>Virtual Servers</h3>
-
-        <ul>
-            {% for link in site.data.videos %}
-            {% if link.offering contains "hpvs" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-
-        <h3>DBaaS</h3>
-
-        <ul>
-            {% for link in site.data.videos %}
-            {% if link.offering contains "dbaas" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-
-        <h2>Tech Talks</h2>
-
-        <ul>
-            {% for link in site.data.tech-talks %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endfor %}
-        </ul>
-
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="tutorials.html">Tutorials</a></li>
+        <li><a href="code-patterns.html">Code Patterns</a></li>
+        <li><a href="tech-talks.html">Tech Talks</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="pdfs-ppts-books.html">Books, Powerpoints & PDF Presentations</a></li>
+        <li><a href="podcasts.html">Podcasts</a></li>
+        <li><a href="accelerator.html">Accelerator</a></li>
+      </ul>
     </div>
 
     <div id="footer">
-	<p>IBM Cloud Hyper Protect Services</p>
+	     <p>IBM Cloud Hyper Protect Services</p>
     </div>
+
+    <div id="offerings">
+        <div style="float: left; width: 33%; background-color: #6495ed;">
+            <h2>HPCS</h2>
+        </div>
+        <div style="float: left; width: 33%; background-color: #00bfff">
+            <h2>HPVS</h2>
+        </div>
+        <div style="float: left; width: 34%; background-color: #1e90ff">
+            <h2>DBaaS</h2>
+        </div>
+    </div>
+
+    <div id="collateral">
+    </div>
+
+<script>
+var slideIndex = 0;
+slideShow();
+
+function slideShow() {
+  var i;
+  var x = document.getElementsByClassName("hyperprotect-slides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(slideShow, 10000); // Change image every 10 seconds
+}
+</script>
 
 </body>
