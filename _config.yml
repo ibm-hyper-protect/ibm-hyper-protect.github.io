@@ -1,3 +1,10 @@
 exclude: [README.md]
 exclude: [CONTRIBUTE.md]
 repository: ibm-hyper-protect/ibm-hyper-protect.github.io
+
+gems:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
