@@ -54,7 +54,7 @@
 	    <hr>
       <ul>
         {% for link in site.data.blogs %}
-        {% if link.offering contains "fss" %}
+        {% if link.offering contains 'fss' %}
         <li><a href="{{ link.url }}">{{ link.title }}"></a></li>
         {% endif %}
         {% endfor %}
@@ -63,7 +63,7 @@
 	    <hr>
       <ul>
         {% for link in site.data.videos %}
-        {% if link.offering contains "fss" %}
+        {% if link.offering contains 'fss' %}
         <li><a href="{{ link.url }}">{{ link.title }}"></a></li>
         {% endif %}
         {% endfor %}
@@ -72,7 +72,7 @@
 	    <hr>
       <ul>
         {% for link in site.data.code-patterns %}
-        {% if link.offering contains "fss" %}
+        {% if link.offering contains 'fss' %}
         <li><a href="{{ link.url }}">{{ link.title }}"></a></li>
         {% endif %}
         {% endfor %}
@@ -81,7 +81,7 @@
 	    <hr>
       <ul>
         {% for link in site.data.tech-talks %}
-        {% if link.offering contains "fss" %}
+        {% if link.offering contains 'fss' %}
         <li><a href="{{ link.url }}">{{ link.title }}"></a></li>
         {% endif %}
         {% endfor %}
