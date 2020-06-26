@@ -99,11 +99,17 @@
 	      <hr>
 	      <h3>Books and PDFs</h3>
         <ul>
+            {% for link in site.data.pdfs %}
+            {% if link.offering contains "fss" %}
+            <li><a href="{{ link.pdffile }}">{{ link.title }}"></a></li>
+            {% endif %}
+            {% endfor %}
 
-          <li><a href="pdfs-books/./pdfs-ppts-books/think2020-worlds-first-fss-cloud.pdf">Think2020: World's First FSS Cloud</a></li>
-
-          <li><a href="pdfs-books/http://www.redbooks.ibm.com/redbooks/pdfs/sg248462.pdf">RedBook: Temenos on IBM LinuxONE Best Practices Guide</a></li>
-
+            {% for link in site.data.books %}
+            {% if link.offering contains "fss" %}
+            <li><a href="{{ link.url }}">{{ link.title }}"></a></li>
+            {% endif %}
+            {% endfor %}
         </ul>
     </div>
 
