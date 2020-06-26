@@ -1,4 +1,5 @@
-
+---
+---
 <!DOCTYPE html>
 
 <head>
@@ -64,13 +65,13 @@
     <ul>
       {% for link in site.data.blogs %}
       {% if link.offering contains "accelerator" %}
-      <li><a href="{{ link.url }}">{{ link.title }}"></a></li>
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
       {% endif %}
       {% endfor %}
 
       {% for link in site.data.pdfs %}
       {% if link.offering contains "accelerator" %}
-      <li><a href="{{ link.url }}">{{ link.title }}"></a></li>
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
       {% endif %}
       {% endfor %}
     </ul>
