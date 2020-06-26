@@ -40,12 +40,12 @@
 
 - title: "IBM THINK 2019: Introduction to Z as a Service"
   url: https://www.ibm.com/events/think/watch/replay/120157283
-  offering: ['zaas', 'fss']
+  offering: ['hyper-protect', 'zaas', 'fss', 'think']
   
 - title: "IBM THINK 2019: IBM Cloud Hyper Protect family and Secure Service Container"
   url: https://www.ibm.com/events/think/watch/replay/120171746
-  offering: ['hyper-protect', 'zaas', 'ssc']
+  offering: ['hyper-protect', 'zaas', 'ssc', 'think']
   
 - title: "IBM THINK 2019: IBM Cloud security"
   url: https://www.ibm.com/events/think/watch/replay/120118486
-  offering: think
+  offering: ['hyper-protect', 'think']
