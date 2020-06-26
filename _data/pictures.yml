@@ -15,3 +15,18 @@
 
 - url: pictures/fss-temenos-reference-architecture.png
   offering: ['hyper-protect', 'fss']
+  
+- url: pictures/creating-dbaas-service-instance.png
+  offering: ['hyper-protect', 'dbaas']
+
+- url: pictures/ibm-cloud-podcasts.png
+  offering: ['hyper-protect']
+
+- url: pictures/techu-14may2020-hyperprotect-use-cases.png
+  offering: ['hyper-protect', 'tech-talks']
+
+- url: pictures/think2020-blog.png
+  offering: ['hyper-protect', 'think']
+
+- url: pictures/trusted-cicd.png
+  offering: ['hyper-protect']
