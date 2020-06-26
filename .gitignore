@@ -2,3 +2,6 @@ _site
 .DS_Store
 vendor
 LICENSE
+Gemfile
+Gemfile.lock
+
