@@ -50,13 +50,6 @@
         <li><a href="accelerator.html">Accelerator</a></li>
       </ul>
 
-      <h3>Hyper Protect in the Press</h3>
-      <ul>
-          {% for link in site.data.inthepress %}
-          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-      </ul>
-
     </div>
 
     <div id="footer">
@@ -76,6 +69,12 @@
     </div>
 
     <div id="collateral">
+      <h3>Hyper Protect in the Press</h3>
+      <ul>
+          {% for link in site.data.inthepress %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+      </ul>
     </div>
 
 <script>
