@@ -25,3 +25,7 @@
 - title: "IBM Redbooks: Securing Your Critical Workloads with IBM Hyper Protect Services"
   url: http://www.redbooks.ibm.com/abstracts/sg248469.html?Open
   offering: ['hyper-protect']
+  
+- title: "Encrypt Kubernetes secrets with IBM Cloud Hyper Protect Crypto Services"
+  url: https://developer.ibm.com/tutorials/encrypt-kubernetes-secrets-with-hyper-protect-crypto-services/
+  offering: ['hyper-protect', 'hpcs']
