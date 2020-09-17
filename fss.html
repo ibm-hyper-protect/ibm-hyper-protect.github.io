@@ -14,73 +14,59 @@
 
 <body>
 
-  <div id="title">
-	    <h1><span>IBM Cloud</span> Hyper Protect Services</h1>
-	    <span>Financial System Services</span>
-  </div>
+    <div id="title">
+	<h1><span>IBM Cloud</span> Hyper Protect Services</h1>
+	<span>Financial System Services</span>
+    </div>
 
-  <div id="content">
-      <div id="slides" class="slides-content" style="max-width:95%">
+    <div id="content">
+        <p id="serif">Build applications for FSS Cloud using a portfolio of Hyper Protect services available on IBM Cloud</p>
 
-          {% for link in site.data.pictures %}
-          {% if link.offering contains "fss" %}
-          <a href="{{ link.url }}">
-             <img class="hyperprotect-slides" src="{{ link.url }}" style="width:100%">
-          </a>
-          {% endif %}
-          {% endfor %}
+	<div id="videos">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/df2q-QdJPgQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+	</div>
 
-      </div>
-  </div>
+        <div id="collateral">
 
-  <div id="sidebar">
-	    <hr>
+            <h2>Blogs</h2>
 
-      <h3>Quick Links</h3>
-      <ul>
-        <li><a href="index.html">IBM Cloud Hyper Protect Home</a></li>
-        <li><a href="http://ibm.biz/hpa-apply">IBM Cloud Hyper Protect Accelerator</a></li>
-      </ul>
+            <ul>
+                {% for link in site.data.blogs %}
+                {% if link.offering contains "fss" %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
 
-      <hr>
-      <h3>Hot off the Press</h3>
-      <ul>
-          {% for link in site.data.inthepress %}
-          {% if link.offering contains "fss" %}
-          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-          {% endif %}
-          {% endfor %}
-      </ul>
+            <h2>Podcasts</h2>
 
-  </div>
+            <ul>
+                {% for link in site.data.podcasts %}
+                {% if link.offering contains "fss" %}
+                <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
 
-  <div id="footer"
-    <p>IBM Cloud Hyper Protect Services for FSS</p>
-  </div>
+        </div>
 
-  <div id="offerings">
-    <div style="float: left; width: 33%; background-color: #6495ed;">
-        <h2>Videos</h2>
+
+    </div>
+
+    <div id="sidebar">
+	
+	<h2>THINK 2020 Replays</h2>
         <ul>
-            {% for link in site.data.videos %}
+            {% for link in site.data.think2020-replay %}
             {% if link.offering contains "fss" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
             {% endfor %}
         </ul>
-    </div>
-    <div style="float: left; width: 33%; background-color: #00bfff">
-        <h2>Blogs</h2>
-        <ul>
-            {% for link in site.data.blogs %}
-            {% if link.offering contains "fss" %}
-            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-    </div>
-    <div style="float: left; width: 34%; background-color: #1e90ff">
-        <h2>Tutorials</h2>
+	    
+	<h2>Tutorials</h2>
         <ul>
             {% for link in site.data.tutorials %}
             {% if link.offering contains "fss" %}
@@ -88,42 +74,41 @@
             {% endif %}
             {% endfor %}
         </ul>
-    </div>
-  </div>
 
-  <div id="collateral">
-	      <hr>
-	      <h3>Books and PDFs</h3>
+	<h2>Code Patterns</h2>
         <ul>
-            {% for link in site.data.pdfs %}
-            {% if link.offering contains "fss" %}
-            <li><a href="{{ link.pdffile }}">{{ link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-
-            {% for link in site.data.books %}
+            {% for link in site.data.code-patterns %}
             {% if link.offering contains "fss" %}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
             {% endfor %}
         </ul>
+
+	<h2>Videos</h2>
+
+        <ul>
+            {% for link in site.data.videos %}
+            {% if link.offering contains "fss" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+
+  <h2>Tech Talks</h2>
+
+        <ul>
+            {% for link in site.data.tech-talks %}
+            {% if link.offering contains "fss" %}
+            <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+
     </div>
 
-<script>
-var slideIndex = 0;
-slideShow();
-
-function slideShow() {
-  var i;
-  var x = document.getElementsByClassName("hyperprotect-slides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "block";
-  setTimeout(slideShow, 10000); // Change image every 10 seconds
-}
-</script>
+    <div id="footer">
+	<p>IBM Cloud Hyper Protect Services for FSS</p>
+    </div>
 
 </body>
+

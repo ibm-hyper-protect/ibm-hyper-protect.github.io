@@ -1,4 +1,2 @@
 exclude: [README.md]
-exclude: [CONTRIBUTE.md]
-exclude: [vendor]
 repository: ibm-hyper-protect/ibm-hyper-protect.github.io

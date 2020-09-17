@@ -1,23 +1,35 @@
 - title: "Hyper protect your sensitive data and workloads in the cloud"
   url: https://www.ibm.com/blogs/systems/hyper-protect-your-sensitive-data-and-workloads-in-the-cloud/
-  offering: ['think2020', 'fss']
+  offering: ['think2020']
 
 - title: "Hyper protect your business for digital transformation"
   url: https://www.ibm.com/blogs/systems/hyper-protect-your-business-for-digital-transformation/
   offering: ['think2020']
 
+- title: "IBM Builds Out Its Financial Services-Ready Public Cloud Ecosystem With More ISVs "
+  url: https://www.forbes.com/sites/moorinsights/2020/05/05/ibm-builds-out-its-financial-services-ready-public-cloud-ecosystem-with-more-isvs/#348df086730c
+  offering: ['think2020']
+  
 - title: "How Partners Can Help Us Create a Secure Ecosystem for the Financial Services Industry"
   url: https://www.ibm.com/cloud/blog/isv-and-saas-partners-for-ibm-financial-services-ready-public-cloud
-  offering: ['think2020', 'fss']
+  offering: ['think2020']
 
+- title: "Think 2020: IBM Goes Vertical With The Financial Services Ready Cloud"
+  url: https://futurumresearch.com/research-notes/think-2020-ibm-goes-vertical-with-the-financial-services-ready-cloud/ 
+  offering: ['think2020']
+  
 - title: "IBM HYPER PROTECT DIGITAL ASSETS PLATFORM:Protect Digital Assets with Hyper Protect Services on LinuxONE"
   url: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/bob-blessing-hartley1/2020/05/12/protect-digital-assets-with-hyper-protect-services?CommunityKey=c1293167-6d93-448e-8854-3068846d3dfe&Tab=
-  offering: ['think2020', 'hpcs']
-
+  offering: ['think2020']
+  
 - title: "Using IBM Cloud Hyper Protect Services with Apple CareKit"
   url: https://developer.ibm.com/blogs/using-ibm-cloud-hyper-protect-services-with-apple-carekit/
-  offering: ['think2020', 'hpcs']
-
+  offering: ['think2020']
+  
+- title: "Announcing BYOK/KYOK for IBM Cloud Hyper Protect DBaaS"
+  url: https://www.ibm.com/cloud/blog/announcements/ibm-cloud-hyper-protect-dbaas
+  offering: ['hyper-protect', 'dbaas']
+  
 - title: "ltree is Now Available in IBM Cloud Hyper Protect DBaaS"
   url: https://www.ibm.com/cloud/blog/announcements/itree-is-now-available-in-ibm-cloud-hyper-protect-dbaas
   offering: ['hyper-protect', 'dbaas']
@@ -28,7 +40,10 @@
 
 - title: "Pick a cloud platform that matches your hybrid cloud strategy, not the other way around"
   url: https://www.ibm.com/blogs/systems/pick-a-cloud-platform-that-matches-your-hybrid-cloud-strategy-not-the-other-way-around/
-  offering: ['hyper-protect']
+
+- title: "Kenyan firm among 15 start-ups to benefit from first IBM project"
+  url: https://www.standardmedia.co.ke/business/article/2001352851/kenyan-firm-among-15-start-ups-to-benefit-from-first-ibm-project
+  offering: ['hyper-protect', 'accelerator']
 
 - title: "The State of IBM Cloud Security: Think 2019"
   url: https://www.ibm.com/cloud/blog/cloud-security-right
@@ -36,11 +51,13 @@
 
 - title: "Integrating Hybrid Cloud and Enterprise IT Infrastructure "
   url: https://www.ibm.com/blogs/systems/integrating-hybrid-cloud-and-enterprise-it-infrastructure/
-  offering: ['hyper-protect']
 
 - title: "IBM Cloud Hyper Protect Services: Protect your organization from internal AND external threats"
   url: https://developer.ibm.com/blogs/hyper-protect-services-protect-your-org-from-internal-and-external-threats/
   offering: ['hyper-protect', 'hpcs']
+
+- title: "Gartner IT Symposium/Xpo 2019: Security and regulatory concerns with public cloud"
+  url: https://www-techrepublic-com.cdn.ampproject.org/c/s/www.techrepublic.com/google-amp/article/gartner-it-symposiumxpo-2019-security-and-regulatory-concerns-with-public-cloud/
 
 - title: "IBM THINK 2019: Fueling Customer Success with VMware on the IBM Cloud"
   url: https://www.ibm.com/cloud/blog/security-innovation-and-choice-for-vmware-on-ibm-cloud
@@ -49,19 +66,30 @@
 - title: "A Tale of Two Security Models"
   url: https://www.ibm.com/blogs/systems/a-tale-of-two-security-models
   offering: ['hyper-protect', 'hpcs', 'hpvs', 'dbaas']
-
+  
+- title: "IBM Unveils New Offerings for Faster and More Secured Path to Hybrid Cloud"
+  url: https://newsroom.ibm.com/2019-02-12-IBM-Unveils-New-Offerings-for-Faster-and-More-Secured-Path-to-Hybrid-Cloud
+  
 - title: "IBM Cloud solution for highly regulated and business-critical workloads in a new secure and compliant hybrid architecture"
   url: https://www.hytrust.com/blog/hytrust-ibm-cloud-secure-and-compliant-hybrid-architecture
   offering: ['hyper-protect', 'hpcs']
-
+  
 - title: "Securing sensitive health data in times of disaster"
   url: https://developer.ibm.com/blogs/tech-times-disaster
   offering: ['hyper-protect', 'hpcs', 'hpvs', 'dbaas']
-
+  
 - title: "IBM Cloud Brings the Most Open and Secure Public Cloud for Business"
   url: https://www.ibm.com/cloud/blog/announcing-new-public-cloud-capabilities
   offering: ['hyper-protect', 'hpcs', 'hpvs', 'dbaas']
 
+- title: "IBM and Bank of America Team up on Public Cloud Aimed at Banks"
+  url: https://www.wsj.com/articles/ibm-bank-of-america-team-up-on-public-cloud-aimed-at-banks-11573016461?shareToken=st1e3675a67a1941c1939cef801b3a1f25
+  offering: ['hyper-protect', 'fss']
+
+- title: "IBM and Bank of America are Developing a Financial Services Ready Public Cloud"
+  url: https://www.forbes.com/sites/moorinsights/2019/11/18/ibm-and-bank-of-america-are-developing-a-financial-services-ready-public-cloud/#204aa6b57d23
+  offering: ['hyper-protect', 'fss']
+  
 - title: "Class of 2020: IBM Hyper Protect Accelerator powered by IBM LinuxONE"
   url: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/melissa-sassi1/2019/09/30/class-of-2020-ibm-hyper-protect-accelerator-powere
   offering: ['hyper-protect', 'accelerator']
@@ -81,7 +109,7 @@
 - title: "Protect sensitive data when disaster strikes and every second counts"
   url: https://developer.ibm.com/blogs/keep-your-data-secure-when-disaster-strikes
   offering: ['hyper-protect', 'dbaas']
-
+  
 - title: "Announcing IBM Cloud Hyper Protect Crypto Services – Hardware Security Module Services"
   url: https://www.ibm.com/cloud/blog/announcing-ibm-cloud-hyper-protect-crypto-services-hardware-security-module-services
   offering: ['hyper-protect', 'hpcs']
@@ -93,19 +121,19 @@
 - title: "Announcing IBM Cloud Hyper Protect DBaaS for MongoDB - General Availability"
   url: https://www.ibm.com/blogs/systems/announcing-ibm-cloud-hyper-protect-dbaas-for-mongodb
   offering: ['hyper-protect', 'dbaas']
-
+  
 - title: "Announcing IBM Cloud Hyper Protect DBaaS for PostgreSQL and MongoDB - General Availability"
   url: https://www.ibm.com/cloud/blog/announcements/announcing-ibm-cloud-hyper-protect-dbaas-postgresql-and-mongodb
   offering: ['hyper-protect', 'dbaas']
-
+  
 - title: "IBM Cloud Hyper Protect Crypto Services is Now Available on IBM Public Cloud"
   url: https://www.ibm.com/blogs/cloud-archive/2019/03/ibm-cloud-hyper-protect-crypto-services-is-now-available-on-ibm-public-cloud
   offering: ['hyper-protect', 'hpcs']
-
+  
 - title: "Hyper Protect DBaaS: the evolution of cloud databases"
   url: https://www.ibm.com/blogs/systems/hyper-protect-dbaas-evolution-cloud-databases
   offering: ['hyper-protect', 'dbaas']
-
+  
 - title: "DBaaS + Security @ MongoDB World"
   url: https://www.ibm.com/blogs/systems/dbaas-security-mongodb-world/
   offering: ['hyper-protect', 'dbaas']
