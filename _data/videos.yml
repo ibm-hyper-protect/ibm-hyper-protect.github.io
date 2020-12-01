@@ -22,8 +22,12 @@
   url: https://youtu.be/GlP-w-vsPmc
   offering: ['hyper-protect', 'hpvs', 'fss']
 
-- title: "Get Started with IBM Cloud Hyper Protect DBaaS"
-  url: https://youtu.be/YzQdszTI4Zg
+- title: "Getting Started with IBM Cloud Hyper Protect DBaaS"
+  url: https://mediacenter.ibm.com/media/0_2wa8vkxt
+  offering: ['hyper-protect', 'dbaas', 'fss']
+  
+- title: "IBM Cloud Hyper Protect DBaaS - Flexible Pricing & Vertical Scaling"
+  url: https://mediacenter.ibm.com/media/1_xr1y01a4
   offering: ['hyper-protect', 'dbaas', 'fss']
 
 - title: "IBM Cloud Hyper Protect DBaaS and Bring Your Own Key"
