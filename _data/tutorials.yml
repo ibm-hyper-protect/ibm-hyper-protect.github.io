@@ -2,6 +2,14 @@
   url: https://developer.ibm.com/tutorials/use-hyper-protect-crypto-services-to-encrypt-vmware-disks/
   offering: ['hyper-protect', 'hpcs', 'vmware']
 
+- title: "Getting Stared with Hyper Protect Crypto Services"
+  url: https://cloud.ibm.com/docs/hs-crypto?topic=hs-crypto-get-started
+  offering: ['hyper-protect', 'hpcs']
+
+- title: "Getting Started with Hyper Protect Virtual Servers"
+  url: https://cloud.ibm.com/docs/hp-virtual-servers?topic=hp-virtual-servers-getting-started
+  offering: ['hyper-protect', 'hpvs']
+  
 - title: "Getting Stared with Hyper Protect DBaaS for MongoDB"
   url: https://cloud.ibm.com/docs/services/hyper-protect-dbaas-for-mongodb?topic=hyper-protect-dbaas-for-mongodb-gettingstarted
   offering: ['hyper-protect', 'dbaas']
